@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation"
+date:   2022-11-15 22:21:59 +00:00
+image: /images/taxpose.jif
+categories: research
+author: "Chuer Pan"
+authors: "<strong>Chuer Pan*</strong>, Brian Okorn*, Harry Zhang*, Ben Eisner*, David Held"
+venue: "Conference on Robot Learning (CoRL)"
+paper: https://openreview.net/pdf?id=FlGPw9g5v1
+website: https://sites.google.com/view/tax-pose/home
+Open Review: https://openreview.net/forum?id=YmJi0bTfeNX
+---
+We propose a vision-based system that learns to estimate the task specific pose relationship (cross-pose) between pairs of interacting object using learned cross-object correspondences. We demonstrate that our method is able to learn from just 10 real point cloud demonstration with no pose annotations needed and generalize to novel instances within the trained object category.
