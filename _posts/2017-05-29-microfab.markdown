@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "An exploration of the reflow technique for the fabrication of an in vitro microvascular system to study occlusive clots"
+date:   2017-05-29 22:21:59 +00:00
+image: /images/microfab1.png
+categories: research
+author: "Chuer Pan"
+authors: "Yang Li, <strong>Chuer Pan</strong>, Yunfeng Li, Eugenia Kumacheva, Arun Ramachandran"
+venue: "Biomedical Microdevices, 19(4), 1-16"
+paper: https://link.springer.com/article/10.1007/s10544-017-0213-0
+---
+
+We introduce a reflow technique for fabrication of multi-level microchannel network with circular cross-section to systematically study the dissolution effects of thrombolytic drug on occlusive embolic clots in microvascular system.
