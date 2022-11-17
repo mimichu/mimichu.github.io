@@ -7,7 +7,7 @@ categories: research
 author: "Chuer Pan"
 authors: "<strong>Chuer Pan*</strong>, Brian Okorn*, Harry Zhang*, Ben Eisner*, David Held"
 venue: "Conference on Robot Learning (CoRL)"
-paper: https://openreview.net/pdf?id=FlGPw9g5v1
+paper: https://openreview.net/pdf?id=YmJi0bTfeNX
 website: https://sites.google.com/view/tax-pose/home
 ---
 

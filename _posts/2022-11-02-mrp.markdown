@@ -7,7 +7,7 @@ categories: research
 author: "Chuer Pan"
 authors: "Brian Okorn*, <strong>Chuer Pan*</strong>, Martial Herbert, David Held"
 venue: "Conference on Robot Learning (CoRL)"
-paper: https://openreview.net/pdf?id=Z1Kg3RNv3M5
+paper: https://openreview.net/pdf?id=ZezSmJq06Ep
 website: https://sites.google.com/view/deep-projective-rotation/home
 ---
 We propose a new algorithm for self-supervised orientation estimation which utilizes Modified Rodrigues Parameters to stereographically project the closed manifold of SO(3) to the open manifold of 3D Euclidean space, which avoids the local optima common when naively applying relative self-supervision for object orientation estimation, allowing for faster convergence and lower rotational error on relative rotation estimation. 
