@@ -10,6 +10,7 @@ venue: "Robotics: Science and Systems (RSS)"
 award: "★ Best Systems Paper Award Finalist, RSS 2024 ★"
 paper: https://arxiv.org/abs/2402.10329
 website: https://umi-gripper.github.io/
+award_link: https://roboticsconference.org/program/awards/
 ---
 
 We propose a portable data collection and policy learning framework that allows direct skill transfer from in-the-wild human demonstrations to deployable robot policies, allowing zero-shot generalizable dynamic, bimanual, precise, and long-horizon robot policies.
