@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
+date:   2023-09-19 22:21:59 +00:00
+image: /images/rtx_thumbnail.gif
+categories: research
+author: "Chuer Pan"
+authors: "Open X-Embodiment Collaboration"
+venue: "International Conference on Robotics and Automation (ICRA)"
+award: "★ Best Conference Paper Award, ICRA 2024 ★"
+paper: https://arxiv.org/abs/2310.08864
+website: https://robotics-transformer-x.github.io/ 
+award_link: https://2024.ieee-icra.org/awards-and-finalists/
+---
+
+We introduce the largest robot learning dataset to date with 1M+ real robot trajectories, spanning 22 robot embodiments. We train large, transformer-based policies on the dataset and show that co-training with our diverse dataset substantially improves performance.
