@@ -2,13 +2,14 @@
 layout: post
 title:  "Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robot"
 date:   2024-02-19 22:21:59 +00:00
-image: /images/umi_thumbnail.mp4
+image: /images/umi.gif
 categories: research
 author: "Chuer Pan"
 authors: "Cheng Chi*, Zhenjia Xu*, <strong>Chuer Pan*</strong>, Eric Cousineau, Ben Burchfiel, Siyuan Feng, Russ Tedrake, Shuran Song"
 venue: "Robotics: Science and Systems (RSS) 2024"
+award: "★ Best Systems Paper Award Finalist, RSS 2024 ★"
 paper: https://arxiv.org/abs/2402.10329
 website: https://umi-gripper.github.io/
 ---
 
-We propose a vision-based system that learns to estimate the task specific pose relationship (cross-pose) between pairs of interacting object using learned cross-object correspondences. We demonstrate that our method is able to learn from just 10 real point cloud demonstration with no pose annotations needed and generalize to novel instances within the trained object category.
+We propose a in-the-wild data collection and policy learning framework that allows direct skill transfer from in-the-wild human demonstrations to deployable robot policies, allowing zero-shot generalizable dynamic, bimanual, precise, and long-horizon robot policies in the wild.
