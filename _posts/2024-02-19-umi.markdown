@@ -5,7 +5,7 @@ date:   2024-02-19 22:21:59 +00:00
 image: /images/umi.gif
 categories: research
 author: "Chuer Pan"
-authors: "Cheng Chi*, Zhenjia Xu*, <strong>Chuer Pan*</strong>, Eric Cousineau, Ben Burchfiel, Siyuan Feng, Russ Tedrake, Shuran Song"
+authors: "Cheng Chi*, Zhenjia Xu*, <strong>Chuer Pan</strong>, Eric Cousineau, Ben Burchfiel, Siyuan Feng, Russ Tedrake, Shuran Song"
 venue: "Robotics: Science and Systems (RSS) 2024"
 award: "★ Best Systems Paper Award Finalist, RSS 2024 ★"
 paper: https://arxiv.org/abs/2402.10329
