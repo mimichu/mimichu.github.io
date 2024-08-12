@@ -91,10 +91,12 @@
               {{post.authors}}
 
               <br>
-              <em style="color: #00c4f0;">{{post.venue}}, {{ post.date | date: "%Y" }} </em>
+              <em style="color: #98ff8f;">{{post.venue}}, {{ post.date | date: "%Y" }} </em>
               <br>
               {% if post.award %}
-                <em href="{post.award_link}" style="color: #f0b400;">{{post.award}}</em>
+              <br>
+                <em href="{{post.award_link}}" style="color: #f99d51;">{{post.award}}</em>
+              <br>
               {% endif %}
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
