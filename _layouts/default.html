@@ -94,9 +94,7 @@
               <em style="color: #00c4f0;">{{post.venue}}, {{ post.date | date: "%Y" }} </em>
               <br>
               {% if post.award %}
-                <br>
-                <em style="color: #f0b400;">{{post.award}}</em>
-                <br>
+                <em href="{post.award_link}" style="color: #f0b400;">{{post.award}}</em>
               {% endif %}
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
