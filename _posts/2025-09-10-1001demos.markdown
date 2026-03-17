@@ -6,7 +6,7 @@ image: /images/1001-demos-teaser.mp4
 categories: research
 author: "Chuer Pan"
 authors: "<strong>Chuer Pan</strong>, Litian Liang, Dominik Bauer, Eric Cousineau, Benjamin Burchfiel, Siyuan Feng, Shuran Song"
-venue: "Conference on Robot Learning (CoRL), 2025"
+venue: "Conference on Robot Learning (CoRL)"
 paper: https://chuerpan.com/1001-demos.github.io/paper.pdf
 website: https://chuerpan.com/1001-demos.github.io/
 ---

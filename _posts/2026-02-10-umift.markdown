@@ -6,7 +6,7 @@ image: /images/coinft-umift-compressed.mp4
 categories: research
 author: "Chuer Pan"
 authors: "Hojung Choi*, Yifan Hou*, <strong>Chuer Pan</strong>, Seongheon Hong, Austin Patel, Xiaomeng Xu, Mark Cutkosky, and Shuran Song"
-venue: "International Conference on Robotics and Automation (ICRA), 2026"
+venue: "International Conference on Robotics and Automation (ICRA)"
 paper: https://arxiv.org/abs/2601.09988
 website: https://umi-ft.github.io/
 ---
