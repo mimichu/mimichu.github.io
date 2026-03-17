@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "In-the-Wild Compliant Manipulation with UMI-FT"
+date:   2026-01-15 22:21:59 +00:00
+image: /images/coinft-umift-compressed.mp4
+categories: research
+author: "Chuer Pan"
+authors: "Hojung Choi*, Yifan Hou*, <strong>Chuer Pan</strong>, Seongheon Hong, Austin Patel, Xiaomeng Xu, Mark Cutkosky, and Shuran Song"
+venue: "International Conference on Robotics and Automation (ICRA), 2026"
+paper: https://arxiv.org/abs/2601.09988
+website: https://umi-ft.github.io/
+---
+
+UMI-FT is a handheld data-collection platform that integrates compact, finger-level force/torque sensors with multimodal vision data to facilitate force-aware policy learning. This system enables the training of adaptive compliance policies that effectively regulate contact forces during complex manipulation tasks, such as wiping or skewering. 

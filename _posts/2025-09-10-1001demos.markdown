@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "One Demo is Worth a Thousand Trajectories: Action-View Augmentation for Visuomotor Policies"
+date:   2025-09-10 22:21:59 +00:00
+image: /images/1001-demos-teaser.mp4
+categories: research
+author: "Chuer Pan"
+authors: "<strong>Chuer Pan</strong>, Litian Liang, Dominik Bauer, Eric Cousineau, Benjamin Burchfiel, Siyuan Feng, Shuran Song"
+venue: "Conference on Robot Learning (CoRL), 2025"
+paper: https://chuerpan.com/1001-demos.github.io/paper.pdf
+website: https://chuerpan.com/1001-demos.github.io/
+---
+
+1001-Demos is an effective data augmentation framework for robot manipulation, that scales single fisheye, eye-in-hand, obstacle-free, human demonstrations into action-view consistent demos with visually realistic observation & physically feasible action trajectories. By leveraging a novel fisheye-adapted Gaussian Splatting formulation and trajectory optimization, it generates deployable smooth, collision-free demos from novel viewpoints with added obstacles — making robot manipulation policies more robust to unseen configurations and learn to plan around obstacles.

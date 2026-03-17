@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "In-the-Wild Compliant Manipulation with UMI-FT"
+date:   2025-11-20 22:21:59 +00:00
+image: /images/umi_on_air_lightbulb_insertion.mp4
+categories: research
+author: "Chuer Pan"
+authors: "Harsh Gupta, Xiaofeng Guo, Huy Ha, Chuer Pan, Muqing Cao, Dongjae Lee, Sebastian Scherer, Shuran Song, Guanya Shi"
+venue: "International Conference on Robotics and Automation (ICRA), 2026"
+paper: https://arxiv.org/abs/2510.02614
+website: https://umi-on-air.github.io/
+---
+
+UMI-on-Air, a framework for embodiment-aware deployment of embodiment-agnostic manipulation policies.
