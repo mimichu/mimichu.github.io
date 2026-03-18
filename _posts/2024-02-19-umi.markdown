@@ -13,4 +13,4 @@ website: https://umi-gripper.github.io/
 award_link: https://roboticsconference.org/program/awards/
 ---
 
-We propose a portable data collection and policy learning framework that allows direct skill transfer from in-the-wild human demonstrations to deployable robot policies, allowing zero-shot generalizable dynamic, bimanual, precise, and long-horizon robot policies.
+We propose UMI, a portable data collection and policy learning framework that allows direct skill transfer from in-the-wild human demonstrations to deployable robot policies, allowing zero-shot generalizable dynamic, bimanual, precise, and long-horizon robot policies.
