@@ -2,7 +2,7 @@
 layout: post
 title:  "In-the-Wild Compliant Manipulation with UMI-FT"
 date:   2026-01-15 22:21:59 +00:00
-image: /images/coinft-umift-compressed.mp4
+image: /images/umift_teaser_control.mp4
 categories: research
 author: "Chuer Pan"
 authors: "Hojung Choi*, Yifan Hou*, <strong>Chuer Pan</strong>, Seongheon Hong, Austin Patel, Xiaomeng Xu, Mark Cutkosky, and Shuran Song"
