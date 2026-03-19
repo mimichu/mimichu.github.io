@@ -196,6 +196,9 @@ td, th, tr, p {
 details summary {
   color: var(--details-color);
   list-style: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline;
 }
 
 
@@ -224,9 +227,6 @@ details[open] summary::before {
 details[open] summary {
   background-color: var(--link-color);
   color: var(--bg-color);
-  padding: 2px 8px;
-  border-radius: 4px;
-  display: inline;
 }
 
 [data-theme="dark"] .footer-text {
