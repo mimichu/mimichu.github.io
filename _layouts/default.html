@@ -211,12 +211,17 @@
     (function() {
       var details = document.getElementById('previously-details');
       if (!details) return;
-      details.querySelector('summary').addEventListener('click', function() {
-        var rect = this.getBoundingClientRect();
-        var topBefore = rect.top;
+      var summary = details.querySelector('summary');
+      summary.addEventListener('click', function(e) {
+        var topBefore = summary.getBoundingClientRect().top;
         requestAnimationFrame(function() {
-          var topAfter = details.querySelector('summary').getBoundingClientRect().top;
-          window.scrollBy(0, topAfter - topBefore);
+          requestAnimationFrame(function() {
+            var topAfter = summary.getBoundingClientRect().top;
+            var drift = topAfter - topBefore;
+            if (Math.abs(drift) > 1) {
+              window.scrollBy(0, drift);
+            }
+          });
         });
       });
     })();
