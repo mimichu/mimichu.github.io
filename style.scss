@@ -12,33 +12,49 @@
 /**************/
 /* BASE RULES */
 /**************/
-
 /* ── light ─────────────────────────────────── */
 :root {
-  --bg-color:         #ffffff;
-  --text-color:       #333333;
-  --link-color:       #7d8764;
-  --link-hover-color: #a3b07a;
-  --venue-color:      #a0496a;
-  --award-color:      #e05a2b;
-  --highlight-bg:     #ffffd0;
-  --details-color:    #333333;
-  --footer-color:     inherit;
+  --bg-color:             #ffffff;
+  --text-color:           #333333;
+
+  /* bio links — lighter warm rose */
+  --link-color:           #c4607a;
+  --link-hover-color:     #e05a2b;  /* snap to coral */
+
+  /* publication venue — deeper rose */
+  --venue-color:          #a0496a;
+
+  /* paper / website links — olive */
+  --pub-link-color:       #7d8764;
+  --pub-link-hover-color: #e05a2b;  /* snap to coral */
+
+  --award-color:          #e05a2b;
+  --highlight-bg:         #ffffd0;
+  --details-color:        #333333;
+  --footer-color:         inherit;
 }
 
 /* ── dark ──────────────────────────────────── */
 [data-theme="dark"] {
-  --bg-color:         #181c1b;  /* unchanged */
-  --text-color:       #dde8e6;  /* unchanged */
-  --link-color:       #b8c98a;  /* olive lifted — #7d8764 → brighter on dark */
-  --link-hover-color: #f28060;  /* snap to coral on hover, same as light */
-  --venue-color:      #d97a96;  /* rose lifted — #a0496a → readable on dark */
-  --award-color:      #f28060;  /* coral lifted — #e05a2b → warm on dark */
-  --highlight-bg:     #252e2c;  /* unchanged */
-  --details-color:    #dde8e6;  /* unchanged */
-  --footer-color:     #6a8480;  /* unchanged */
-}
+  --bg-color:             #181c1b;
+  --text-color:           #dde8e6;
 
+  /* bio links — rose lifted for dark bg */
+  --link-color:           #d97a96;
+  --link-hover-color:     #f28060;  /* snap to lifted coral */
+
+  /* publication venue — lifted rose */
+  --venue-color:          #e8a0b4;  /* lighter than bio links to invert hierarchy */
+
+  /* paper / website links — olive lifted */
+  --pub-link-color:       #b8c98a;
+  --pub-link-hover-color: #f28060;  /* snap to lifted coral */
+
+  --award-color:          #f28060;
+  --highlight-bg:         #252e2c;
+  --details-color:        #dde8e6;
+  --footer-color:         #6a8480;
+}
 
 body {
   background-color: var(--bg-color);
