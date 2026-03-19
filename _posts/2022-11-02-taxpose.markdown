@@ -2,7 +2,7 @@
 layout: post
 title:  "TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation"
 date:   2022-11-02 22:21:59 +00:00
-image: /images/taxpose.gif
+image: /images/taxpose.mp4
 categories: research
 author: "Chuer Pan"
 authors: "<strong>Chuer Pan*</strong>, Brian Okorn*, Harry Zhang*, Ben Eisner*, David Held"
