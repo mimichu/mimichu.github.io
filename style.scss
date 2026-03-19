@@ -20,18 +20,16 @@
 
   /* bio links — lighter warm rose */
   --link-color:           #c4607a;
-  --link-hover-color:     #3d7ab0;  /* rose → blue on hover */
+  --link-hover-color:     #e05a2b;  /* snap to coral */
 
   /* publication venue — deeper rose */
   --venue-color:          #a0496a;
 
   /* paper / website links — olive */
   --pub-link-color:       #7d8764;
-  --pub-link-hover-color: #3d7ab0;  /* olive → blue on hover */
+  --pub-link-hover-color: #e05a2b;  /* snap to coral */
 
-  /* award — coral, fully isolated */
   --award-color:          #e05a2b;
-
   --highlight-bg:         #ffffd0;
   --details-color:        #333333;
   --footer-color:         inherit;
@@ -42,25 +40,24 @@
   --bg-color:             #181c1b;
   --text-color:           #dde8e6;
 
-  /* bio links — rose lifted */
+  /* bio links — rose lifted for dark bg */
   --link-color:           #d97a96;
-  --link-hover-color:     #6aaad4;  /* blue lifted for dark bg */
+  --link-hover-color:     #6aaad4;  /* snap to lifted coral */
 
-  /* publication venue — lighter rose */
-  --venue-color:          #e8a0b4;
+  /* publication venue — lifted rose */
+  --venue-color:          #e8a0b4;  /* lighter than bio links to invert hierarchy */
 
   /* paper / website links — olive lifted */
   --pub-link-color:       #b8c98a;
-  --pub-link-hover-color: #6aaad4;  /* blue lifted for dark bg */
+  --pub-link-hover-color: #6aaad4;  /* snap to lifted coral */
 
-  /* award — coral lifted, fully isolated */
   --award-color:          #f28060;
-
   --highlight-bg:         #252e2c;
   --details-color:        #dde8e6;
   --footer-color:         #6a8480;
 }
 
+ 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
