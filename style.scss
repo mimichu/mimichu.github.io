@@ -228,8 +228,12 @@ details[open] .details-content {
   background: transparent;
   border-left: 3px solid var(--link-color);
   border-radius: 0 6px 6px 0;
-  padding: 12px 14px;
-  margin-top: 8px;
+  padding: 4px 14px;
+  margin-top: 6px;
+}
+
+details[open] .details-content p {
+  margin: 6px 0;
 }
 
 
