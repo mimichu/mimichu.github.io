@@ -37,7 +37,7 @@
   --footer-color: #999;
 }
 
-html {
+html, body {
   background-color: var(--bg-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
