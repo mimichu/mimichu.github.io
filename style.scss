@@ -12,6 +12,7 @@
 /**************/
 /* BASE RULES */
 /**************/
+
 /* ── light ─────────────────────────────────── */
 :root {
   --bg-color:             #f6f2eb;
@@ -19,16 +20,18 @@
 
   /* bio links — lighter warm rose */
   --link-color:           #c4607a;
-  --link-hover-color:     #e05a2b;  /* snap to coral */
+  --link-hover-color:     #3d7ab0;  /* rose → blue on hover */
 
   /* publication venue — deeper rose */
   --venue-color:          #a0496a;
 
   /* paper / website links — olive */
   --pub-link-color:       #7d8764;
-  --pub-link-hover-color: #e05a2b;  /* snap to coral */
+  --pub-link-hover-color: #3d7ab0;  /* olive → blue on hover */
 
+  /* award — coral, fully isolated */
   --award-color:          #e05a2b;
+
   --highlight-bg:         #ffffd0;
   --details-color:        #333333;
   --footer-color:         inherit;
@@ -39,18 +42,20 @@
   --bg-color:             #181c1b;
   --text-color:           #dde8e6;
 
-  /* bio links — rose lifted for dark bg */
+  /* bio links — rose lifted */
   --link-color:           #d97a96;
-  --link-hover-color:     #f28060;  /* snap to lifted coral */
+  --link-hover-color:     #6aaad4;  /* blue lifted for dark bg */
 
-  /* publication venue — lifted rose */
-  --venue-color:          #e8a0b4;  /* lighter than bio links to invert hierarchy */
+  /* publication venue — lighter rose */
+  --venue-color:          #e8a0b4;
 
   /* paper / website links — olive lifted */
   --pub-link-color:       #b8c98a;
-  --pub-link-hover-color: #f28060;  /* snap to lifted coral */
+  --pub-link-hover-color: #6aaad4;  /* blue lifted for dark bg */
 
+  /* award — coral lifted, fully isolated */
   --award-color:          #f28060;
+
   --highlight-bg:         #252e2c;
   --details-color:        #dde8e6;
   --footer-color:         #6a8480;
