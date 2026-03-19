@@ -198,6 +198,8 @@ details summary {
   list-style: none;
 }
 
+
+
 details summary::-webkit-details-marker {
   display: none;
 }
@@ -217,6 +219,14 @@ details[open] .details-content {
 
 details[open] summary::before {
   content: "❮";
+}
+
+details[open] summary {
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline;
 }
 
 [data-theme="dark"] .footer-text {
