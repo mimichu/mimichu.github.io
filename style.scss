@@ -174,6 +174,48 @@ details summary {
   color: var(--footer-color);
 }
 
+/* ── responsive: phones & small tablets ──── */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  body, td, th, tr, p, a, strong {
+    font-size: 16px;
+  }
+
+  /* Stack intro section vertically on mobile */
+  .intro-row td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 2.5% !important;
+  }
+
+  .intro-row td:last-child {
+    text-align: center;
+  }
+
+  .intro-row td:last-child img {
+    max-width: 200px;
+  }
+
+  /* Stack research entries vertically */
+  .research-row td {
+    display: block !important;
+    width: 100% !important;
+    padding: 2.5% !important;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
