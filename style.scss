@@ -204,12 +204,10 @@ details summary::-webkit-details-marker {
 
 details summary::before {
   content: "❯  ";
-  display: inline-block;
-  transition: transform 0.2s ease;
 }
 
 details[open] summary::before {
-  transform: rotate(90deg);
+  content: "❮  ";
 }
 
 [data-theme="dark"] .footer-text {
