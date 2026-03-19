@@ -145,6 +145,7 @@
                 <em href="{{post.award_link}}" style="color: var(--award-color);">{{post.award}}</em>
               <br>
               {% endif %}
+              <span class="pub-links">
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
               {% endif %}
@@ -160,6 +161,7 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
+              </span>
               <p></p>
               {{ post.excerpt }}
             </td>

@@ -73,6 +73,15 @@ a:hover {
   text-decoration: none;
 }
 
+.pub-links a {
+  color: var(--pub-link-color);
+}
+
+.pub-links a:focus,
+.pub-links a:hover {
+  color: var(--pub-link-hover-color);
+}
+
 body,
 td,
 th,
