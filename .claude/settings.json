@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -vf \"cropdetect=24:2:0\" -frames:v 5 -f null -)",
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -vf \"select=eq\\(n\\\\,170\\),cropdetect=limit=240:round=2:reset=0\" -frames:v 1 -f null -)",
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -ss 5 -frames:v 1 /tmp/rtx_frame.png)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -ss 17 -frames:v 1 /tmp/rtx_frame2.png)",
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -vf \"crop=320:200:0:60\" -frames:v 1 /tmp/rtx_crop_test.png)",
+      "Bash(open /tmp/rtx_crop_test.png)",
+      "Bash(ffmpeg -ss 17 -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.gif -vf \"crop=320:200:0:60\" -frames:v 1 /tmp/rtx_crop_test2.png)",
+      "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:200:0:60\" -vcodec libx264 -crf 23 -preset slow -pix_fmt yuv420p -an -movflags +faststart /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.mp4)"
+    ]
+  }
+}
