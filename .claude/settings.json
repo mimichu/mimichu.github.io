@@ -13,7 +13,9 @@
       "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:200:0:60\" -vcodec libx264 -crf 23 -preset slow -pix_fmt yuv420p -an -movflags +faststart /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.mp4)",
       "Bash(ffmpeg -ss 17 -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:160:0:80\" -frames:v 1 /tmp/rtx_crop_test3.png)",
       "Bash(ffmpeg -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:160:0:80\" -frames:v 1 /tmp/rtx_crop_test4.png)",
-      "Bash(ffmpeg -y -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:160:0:80\" -vcodec libx264 -crf 23 -preset slow -pix_fmt yuv420p -an -movflags +faststart /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.mp4)"
+      "Bash(ffmpeg -y -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:160:0:80\" -vcodec libx264 -crf 23 -preset slow -pix_fmt yuv420p -an -movflags +faststart /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.mp4)",
+      "Bash(ffmpeg -ss 17 -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:180:0:70\" -frames:v 1 /tmp/rtx_crop_test5.png)",
+      "Bash(ffmpeg -y -i /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail_original.gif -vf \"crop=320:180:0:70\" -vcodec libx264 -crf 23 -preset slow -pix_fmt yuv420p -an -movflags +faststart /Users/chuerpan/Documents/repo/mimichu.github.io/images/rtx_thumbnail.mp4)"
     ]
   }
 }
