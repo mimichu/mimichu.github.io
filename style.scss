@@ -203,11 +203,12 @@ details summary::-webkit-details-marker {
 }
 
 details summary::before {
-  content: "❯  ";
+  content: "❯";
+  margin-right: 0.4em;
 }
 
 details[open] summary::before {
-  content: "❮  ";
+  content: "❮";
 }
 
 [data-theme="dark"] .footer-text {
