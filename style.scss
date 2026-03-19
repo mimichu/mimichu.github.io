@@ -206,10 +206,22 @@ details summary {
 details summary::-webkit-details-marker {
   display: none;
 }
-
 details summary::before {
   content: "❯";
   margin-right: 0.4em;
+}
+
+/* ← add this block here */
+details[open] summary {
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline;
+}
+
+details[open] summary::before {
+  content: "❮";
 }
 
 details[open] .details-content {
@@ -220,14 +232,6 @@ details[open] .details-content {
   margin-top: 8px;
 }
 
-details[open] summary::before {
-  content: "❮";
-}
-
-details[open] summary {
-  background-color: var(--link-color);
-  color: var(--bg-color);
-}
 
 [data-theme="dark"] .footer-text {
   color: var(--footer-color);
