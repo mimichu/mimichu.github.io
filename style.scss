@@ -13,29 +13,32 @@
 /* BASE RULES */
 /**************/
 
+/* ── light ─────────────────────────────────── */
 :root {
-  --bg-color: #ffffff;
-  --text-color: #333333;
-  --link-color: #B5496A;
+  --bg-color:         #ffffff;
+  --text-color:       #333333;
+  --link-color:       #B5496A;
   --link-hover-color: #e18ba2;
-  --venue-color: #075e54;
-  --award-color: #e05a2b;
-  --highlight-bg: #ffffd0;
-  --details-color: #333;
-  --footer-color: inherit;
+  --venue-color:      #075e54;
+  --award-color:      #e05a2b;
+  --highlight-bg:     #ffffd0;
+  --details-color:    #333333;
+  --footer-color:     inherit;
 }
 
+/* ── dark ──────────────────────────────────── */
 [data-theme="dark"] {
-  --bg-color: #1A1A1A;
-  --text-color: #e6edf3;
-  --link-color: #87c2da;
-  --link-hover-color: #e18ba2;
-  --venue-color: #ACC0D3;
-  --award-color: #F6C992;
-  --highlight-bg: #3b2e00;
-  --details-color: #e6edf3;
-  --footer-color: #8b949e;
+  --bg-color:         #181c1b;  /* cool teal-tinted dark */
+  --text-color:       #dde8e6;  /* cool white, teal undertone */
+  --link-color:       #cc7090;  /* rose, lifted for dark bg */
+  --link-hover-color: #e094aa;  /* lighter rose on hover */
+  --venue-color:      #43c4ae;  /* teal brightened, same hue as #075e54 */
+  --award-color:      #e8784a;  /* coral lifted, keeps #e05a2b warmth */
+  --highlight-bg:     #252e2c;  /* teal-tinted dark highlight */
+  --details-color:    #dde8e6;
+  --footer-color:     #6a8480;  /* muted teal-gray */
 }
+
 
 body {
   background-color: var(--bg-color);
