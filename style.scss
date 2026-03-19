@@ -12,14 +12,45 @@
 /**************/
 /* BASE RULES */
 /**************/
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #1772d0;
+  --link-hover-color: #f09228;
+  --venue-color: #ff8080;
+  --award-color: #f99d51;
+  --highlight-bg: #ffffd0;
+  --details-color: #333;
+  --footer-color: inherit;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0d1117;
+  --text-color: #e6edf3;
+  --link-color: #58a6ff;
+  --link-hover-color: #f09228;
+  --venue-color: #ff8080;
+  --award-color: #f99d51;
+  --highlight-bg: #3b2e00;
+  --details-color: #e6edf3;
+  --footer-color: #8b949e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 a {
-  color: #1772d0;
+  color: var(--link-color);
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: var(--link-hover-color);
   text-decoration: none;
 }
 
@@ -38,6 +69,10 @@ strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-display: auto;
+}
+
+h1, h2, h3 {
+  color: var(--text-color);
 }
 
 h2 {
@@ -71,7 +106,31 @@ h1 {
   margin-block-end: 14px;
   margin-left: 0px;
   margin-right: 0px;
+}
 
+/* Dark mode toggle */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+  background: none;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.theme-toggle:hover {
+  opacity: 1;
 }
 
 .one {
@@ -96,7 +155,19 @@ h1 {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: var(--highlight-bg);
+}
+
+td, th, tr, p {
+  color: var(--text-color);
+}
+
+details summary {
+  color: var(--details-color);
+}
+
+[data-theme="dark"] .footer-text {
+  color: var(--footer-color);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

@@ -15,11 +15,20 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 
 
 
 <body>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -53,7 +62,7 @@
               </p> -->
 
               <details>
-                <summary style="cursor: pointer; font-weight: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333;">Previously</summary>
+                <summary style="cursor: pointer; font-weight: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Previously</summary>
                 <!-- <summary style="cursor: pointer; font-weight: bold;">Previously</summary> -->
                 <p>
                   I got my <a href="https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/">MS in Robotics</a> from CMU Robotics Institute, where I was fortunate to work with <a href="https://davheld.github.io/">David Held</a> and <a href="https://www.cs.cmu.edu/about-scs/about-dean">Martial Hebert</a> on object-centric 3D representations for precise manipulation.
@@ -171,6 +180,28 @@
       </td>
     </tr>
   </table>
+  <script>
+    (function() {
+      var toggle = document.getElementById('theme-toggle');
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        toggle.textContent = '\u2600';
+      }
+      toggle.addEventListener('click', function() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+          toggle.textContent = '\u263E';
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+          toggle.textContent = '\u2600';
+        }
+      });
+    })();
+  </script>
 </body>
 
 </html>
