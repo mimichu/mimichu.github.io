@@ -11,4 +11,4 @@ paper: https://arxiv.org/abs/2510.02614
 website: https://umi-on-air.github.io/
 ---
 
-UMI-on-Air, a framework for embodiment-aware deployment of embodiment-agnostic manipulation policies.
+UMI-on-Air, a framework for embodiment-aware deployment of embodiment-agnostic manipulation policies. We propose Embodiment-Aware Diffusion Policy (EADP), which couples a high-level UMI policy with a low-level embodiment-specific controller at inference time. By integrating gradient feedback from the controller's tracking cost into the diffusion sampling process, EADP steers trajectory generation toward dynamically feasible solutions tailored to the deployment embodiment — enabling plug-and-play adaptation at test time.
