@@ -11,4 +11,4 @@ paper: https://arxiv.org/abs/2510.02614
 website: https://umi-on-air.github.io/
 ---
 
-UMI-on-Air, a framework for embodiment-aware deployment of embodiment-agnostic manipulation policies. We propose Embodiment-Aware Diffusion Policy, which integrates gradient feedback from an embodiment-specific controller into an embodiment-agnostic diffusion policy's sampling process, steering trajectory generation toward dynamically feasible solutions for the deployment robot at test time.
+UMI-on-Air, a framework for embodiment-aware deployment of embodiment-agnostic manipulation policies. We propose Embodiment-Aware Diffusion Policy, which integrates gradient feedback from an embodiment-specific low-level controller into an embodiment-agnostic high-level diffusion policy's sampling process, steering trajectory generation toward dynamically feasible solutions for the deployment robot at test time.
